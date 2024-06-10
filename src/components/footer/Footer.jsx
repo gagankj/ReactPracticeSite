@@ -24,9 +24,14 @@ export default function Footer() {
                                         Home
                                     </Link>
                                 </li>
-                                <li>
+                                <li className='mb-4'>
                                     <Link to="/about" className="hover:underline">
                                         About
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/contact" className="hover:underline">
+                                        Contact
                                     </Link>
                                 </li>
                             </ul>
@@ -36,7 +41,7 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        href="https://github.com/gagankj"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
@@ -72,7 +77,7 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2024 
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
+                        <a href="#" className="hover:underline">
                             Gagandeep
                         </a>
                         
